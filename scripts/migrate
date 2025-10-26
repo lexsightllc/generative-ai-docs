@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+echo "No database migrations are defined for this repository." >&2
+exit 0

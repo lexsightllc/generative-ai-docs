@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source=./_utils.sh
+source "${SCRIPT_DIR}/_utils.sh"
+
+TIMESTAMP="$(date +%Y%m%d%H%M%S)"
+ARTIFACT_DIR="${ROOT_DIR}/build"
+mkdir -p "${ARTIFACT_DIR}"
+
+ARCHIVE="${ARTIFACT_DIR}/generative-ai-docs-${TIMESTAMP}.tar.gz"
+tar --exclude-vcs -czf "${ARCHIVE}" -C "${ROOT_DIR}" site demos examples README.md
+
+echo "Build artifact created at ${ARCHIVE}"

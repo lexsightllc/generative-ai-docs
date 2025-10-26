@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source=./_utils.sh
+source "${SCRIPT_DIR}/_utils.sh"
+
+run_with_venv
+
+ruff format "${ROOT_DIR}/scripts" "${ROOT_DIR}/tests"
+ruff check "${ROOT_DIR}/scripts" "${ROOT_DIR}/tests" --fix

@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source=./_utils.sh
+source "${SCRIPT_DIR}/_utils.sh"
+
+run_with_venv
+
+OUTPUT="${1:-${ROOT_DIR}/sbom/sbom.json}"
+mkdir -p "$(dirname "${OUTPUT}")"
+
+python - <<'PY'
+import json
+from pathlib import Path
+
+requirements = Path("configs/python/requirements.txt").read_text().strip().splitlines()
+components = []
+for requirement in requirements:
+    if not requirement or requirement.startswith("#"):
+        continue
+    if "==" in requirement:
+        name, version = requirement.split("==", maxsplit=1)
+    else:
+        name, version = requirement, "*"
+    components.append({"name": name, "version": version})
+
+sbom = {
+    "metadata": {"description": "Python tooling dependencies"},
+    "components": components,
+}
+
+Path("${OUTPUT}").write_text(json.dumps(sbom, indent=2) + "\n")
+PY
+
+echo "SBOM written to ${OUTPUT}"

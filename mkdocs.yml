@@ -1,0 +1,17 @@
+site_name: Generative AI Developer Docs
+site_description: Internal documentation scaffolding for the Generative AI repository
+site_url: https://ai.google.dev/
+nav:
+  - Home: docs/index.md
+  - Architecture Decisions: docs/adr/README.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.details
+
+theme:
+  name: material
+  features:
+    - navigation.expand
