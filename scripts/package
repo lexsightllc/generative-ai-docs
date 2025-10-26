@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source=./_utils.sh
+source "${SCRIPT_DIR}/_utils.sh"
+
+PACKAGE_DIR="${ROOT_DIR}/dist"
+mkdir -p "${PACKAGE_DIR}"
+
+ARCHIVE="${PACKAGE_DIR}/generative-ai-docs-content.tar.gz"
+tar --exclude='dist' --exclude='build' --exclude='.venv' --exclude-vcs -czf "${ARCHIVE}" -C "${ROOT_DIR}" site demos examples
+
+echo "Package created at ${ARCHIVE}"

@@ -1,0 +1,15 @@
+name: generative-ai-docs
+summary: Documentation, examples, and demos for the Google Generative AI developer site.
+primary_language: python
+package_manager: pip
+runtime:
+  python: 3.11.7
+  nodejs: 20.11.1
+entrypoints:
+  dev_server: scripts/dev
+ports:
+  - name: docs
+    value: 8000
+service_type: documentation
+owners:
+  - github: google/generative-ai-docs-maintainers

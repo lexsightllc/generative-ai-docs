@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source=./_utils.sh
+source "${SCRIPT_DIR}/_utils.sh"
+
+run_with_venv
+
+VERSION_BUMP="${1:-patch}"
+cz bump --increment "${VERSION_BUMP}" --yes

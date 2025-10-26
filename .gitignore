@@ -7,3 +7,10 @@
 **/venv
 **/.python-version
 **/node_modules
+.venv
+build/
+dist/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+sbom/*.json

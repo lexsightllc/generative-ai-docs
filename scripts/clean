@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source=./_utils.sh
+source "${SCRIPT_DIR}/_utils.sh"
+
+rm -rf "${ROOT_DIR}/.venv" "${ROOT_DIR}/build" "${ROOT_DIR}/dist" "${ROOT_DIR}/.mypy_cache" "${ROOT_DIR}/.ruff_cache" "${ROOT_DIR}/.pytest_cache"
+mkdir -p "${ROOT_DIR}/build" "${ROOT_DIR}/dist"
