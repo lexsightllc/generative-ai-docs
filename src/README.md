@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # Source Placeholder
 
 Primary source packages should live in this directory. The documentation site

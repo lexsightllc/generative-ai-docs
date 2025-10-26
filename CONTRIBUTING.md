@@ -1,6 +1,11 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # How to Contribute
 
 We would love to accept your patches and contributions to this project.
+By submitting a contribution, you agree that it will be licensed under the
+Mozilla Public License 2.0 (MPL-2.0) and that inbound contributions follow an
+inbound=outbound policy—your submissions will be distributed under the same
+terms used for the project itself.
 
 ## Before you begin
 

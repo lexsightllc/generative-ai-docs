@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 ![talking-character-header](./docs/talking-character-header.png)
 
 # LLM Demo - Talking Character

@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # LLM Demo - Travel Planner
 
 ![travel-planner-header](./docs/wanderlust_header.png)

@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # Configuration Artifacts
 
 Centralize shared configuration files (linting, tooling, etc.) within this

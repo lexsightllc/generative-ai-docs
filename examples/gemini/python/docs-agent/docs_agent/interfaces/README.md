@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # Set up Docs Agent CLI
 
 This guide provides instructions on setting up Docs Agent's command-line

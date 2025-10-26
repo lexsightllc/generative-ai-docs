@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Smoke tests that validate the repository scaffolding stays intact."""
 
 from __future__ import annotations

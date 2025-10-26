@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # Change Log
 
 All notable changes to the "pipet-code-agent" extension are documented in this file.

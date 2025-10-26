@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # Software Bill of Materials
 
 Generated SBOM artifacts should be committed to this directory when publishing

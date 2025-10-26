@@ -43,5 +43,6 @@
     "presets": [
       "@babel/preset-react"
     ]
-  }
+  },
+  "license": "MPL-2.0"
 }

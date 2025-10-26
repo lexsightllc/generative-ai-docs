@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 ## Description of the change
 <!--- Describe your changes in detail. -->
 

@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # Docs Agent configuration reference
 
 This page provides a list of additional options that can be specified

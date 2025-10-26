@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # Pipet Code Agent
 
 Pipet Code Agent is an AI-powered code assistance tool, built as an extension

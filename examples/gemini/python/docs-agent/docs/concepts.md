@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # Docs Agent concepts
 
 **Note**: If you want to set up and launch the Docs Agent chat app on your host machine,

@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # Docs Agent CLI reference
 
 This page provides a list of the Docs Agent command lines and their usages

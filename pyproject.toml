@@ -1,8 +1,13 @@
+# SPDX-License-Identifier: MPL-2.0
 [project]
 name = "generative-ai-docs"
 version = "0.1.0"
 description = "Documentation and examples for the Generative AI developer site"
 requires-python = ">=3.11"
+license = {text = "MPL-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+]
 
 [tool.black]
 line-length = 88

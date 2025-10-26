@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 /**
  * Copyright 2023 The MediaPipe Authors. All Rights Reserved.
  *

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 name: generative-ai-docs
 summary: Documentation, examples, and demos for the Google Generative AI developer site.
 primary_language: python

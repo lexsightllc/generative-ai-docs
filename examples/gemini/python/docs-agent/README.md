@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # Docs Agent
 
 The Docs Agent project explores applications and use cases that involve using a large

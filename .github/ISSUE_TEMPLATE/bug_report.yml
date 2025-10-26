@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 name: Bug report
 description: Use this template to report bugs
 labels: ["type:bug"]

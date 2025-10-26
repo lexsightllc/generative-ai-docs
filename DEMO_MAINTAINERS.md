@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # Demo Maintenance
 
 We have several [demo applications](https://github.com/google/generative-ai-docs/tree/main/demos/palm) hosted in this repository that are referenced in the [AI for Developers](https://ai.google.dev/develop/sample-apps) site. We're looking to the community to help maintain them. 
