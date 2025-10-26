@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # Flutter Theme Agent
 
 Flutter Theme Agent is an AI-powered code assistance tool, built as an extension

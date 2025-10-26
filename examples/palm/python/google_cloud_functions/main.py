@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 import functions_framework
 import google.ai.generativelanguage as glm
 import google.generativeai as palm

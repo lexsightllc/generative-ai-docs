@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 tasks:
   - name: "DescribeImagesWithoutMarkdown"
     model: "models/gemini-2.0-flash"

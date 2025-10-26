@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # Create a new Docs Agent task
 
 This guide provides instructions on how to create a new Docs Agent

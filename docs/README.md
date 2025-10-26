@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # Documentation Home
 
 This directory houses repository-level documentation and architectural records that

@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # ADR <number>: <title>
 
 - Status: Proposed

@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # Docs Agent chunking process
 
 This page describes Docs Agent's chunking process and potential optimizations.

@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # LLM Demo - Mood Food
 
 ![mood-food-header](./docs/mood_food_header.png)

@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # Quick, Prompt!
 
 By Google Creative Lab

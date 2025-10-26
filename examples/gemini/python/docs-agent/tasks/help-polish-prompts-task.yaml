@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 tasks:
   - name: "HelpPolishPrompts"
     model: "models/gemini-1.5-flash-latest"

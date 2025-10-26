@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # PaLM API demos
 
 Herein lies demo apps referenced by the PaLM API site.

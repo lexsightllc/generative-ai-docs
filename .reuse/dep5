@@ -1,0 +1,13 @@
+# SPDX-License-Identifier: MPL-2.0
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: generative-ai-docs
+Upstream-Contact: Augusto 'Guto' Ochoa Ughini <lexsightllc@lexsightllc.com>
+Source: https://github.com/google/generative-ai-docs
+
+Files: *
+Copyright: 2024-2025 Augusto 'Guto' Ochoa Ughini
+License: MPL-2.0
+
+Files: third_party/*
+Copyright: Respective authors
+License: see associated subdirectories

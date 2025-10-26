@@ -1,4 +1,13 @@
+# SPDX-License-Identifier: MPL-2.0
 repos:
+  - repo: local
+    hooks:
+      - id: add-spdx-headers
+        name: Add SPDX headers
+        entry: python scripts/insert_spdx_header.py
+        language: system
+        types: [text]
+        stages: [pre-commit]
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.5.0
     hooks:

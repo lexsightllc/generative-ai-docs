@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 _script()
 {
   local cur preset_list

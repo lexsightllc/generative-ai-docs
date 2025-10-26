@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # Gemini and LangChain.js quickstart (Node.js)
 
 This example shows you how to invoke

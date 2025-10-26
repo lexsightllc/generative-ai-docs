@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # Processing source documents in Docs Agent
 
 This `README` file provides information on the steps involved in the following two Python scripts,

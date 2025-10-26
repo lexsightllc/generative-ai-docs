@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # Google Gemini API Website & Documentation
 
 These are the source files for the guide and tutorials on
@@ -23,7 +24,15 @@ To file an issue, please use the
 
 ## License
 
-[Apache License 2.0](LICENSE)
+This project is distributed under the [Mozilla Public License 2.0](LICENSE). Any
+modifications to MPL-covered files must be shared under the same license, while
+larger works that merely include those files may remain under proprietary
+terms.
+
+## Credits
+
+Project stewardship and ongoing development are documented in
+[NOTICE](NOTICE), which also records bundled third-party attributions.
 
 ## Developer Tasks
 

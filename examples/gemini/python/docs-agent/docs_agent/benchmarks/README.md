@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # Benchmark test for monitoring the quality of embeddings and AI responses
 
 This page explains how to run benchmark test to measure and track

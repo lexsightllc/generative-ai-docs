@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # Test Suite Layout
 
 Automated tests are organized by scope. Use the provided folders to keep

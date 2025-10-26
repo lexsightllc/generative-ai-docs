@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # PaLM API examples
 
 Herein lies example code referenced by the PaLM API site.

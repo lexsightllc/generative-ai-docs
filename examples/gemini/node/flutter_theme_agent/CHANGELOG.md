@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # Change Log
 
 All notable changes to the "flutter-theme-agent" extension will be documented in this file.

@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # Convert Google Docs, PDF, and Gmail to Markdown files
 
 The collection of scripts in this `apps_script` directory allows you to convert
